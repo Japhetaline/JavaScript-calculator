@@ -1,0 +1,93 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.rtl.min.css" integrity="sha384-dc2NSrAXbAkjrdm9IYrX10fQq9SDG6Vjz7nQVKdKcJl3pC+k37e7qJR5MVSCS+wR" crossorigin="anonymous">
+<link rel="stylesheet" href="index.js">
+    <title>jsCalculator by Japhetaline</title>
+    <script src="index.js">JavaScript-Calculator-by-Japhetaline</script>
+
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row text-center">
+            <div class="col">
+    <h1 class="text-center">jsCalculator by Japhetaline</h1>
+</div>
+</div>
+
+<div class="row text-center">
+    <div class="col-10">
+    <div id="display" class="bg-info text-center textwhite my-3 py-5">0</div>
+</div>
+<div class="col-2">
+<div id="secondaryDisplay" class="bg-secondary text-center textwhite my-3 py-5">0</div>
+</div>
+</div>
+
+
+<div class="row text-center">
+    <div class="col-4">
+        <div class="d-grid gap-2">
+    <a id="zero" class="btn btn-primary" onclick="updateDisplay(0)">0</a>
+    <a id="one" class="btn btn-primary" onclick="updateDisplay(1)">1</a>
+    <a id="two" class="btn btn-primary" onclick="updateDisplay(2)">2</a>
+    <a id="equals" class="btn btn-primary" onclick="updateDisplay('equals')">=</a>
+</div>
+</div>
+
+<div class="col-4">
+    <div class="d-grid gap-2">
+    <a id="three" class="btn btn-primary" onclick="updateDisplay(3)">3</a>
+    <a id="four" class="btn btn-primary" onclick="updateDisplay(4)">4</a>
+    <a id="five" class="btn btn-primary" onclick="updateDisplay(5)">5</a>
+    <a id="clear" class="btn btn-danger" onclick="clearDispay()">clear</a>
+</div>
+</div>
+
+<div class="col-4">
+    <div class="d-grid gap-2">
+    <a id="six" class="btn btn-primary" onclick="updateDisplay(6)">6</a>
+    <a id="seven" class="btn btn-primary" onclick="updateDisplay(7)">7</a>
+    <a id="eight" class="btn btn-primary" onclick="updateDisplay(8)">8</a>
+    <a id="nine" class="btn btn-primary" onclick="updateDisplay(9)">9</a>
+</div>
+</div>
+</div>
+
+<div class="d-grid gap-2">
+<div class="row text-center pt-3">
+    <div class="col">
+    <a id="add" class="btn btn-success" onclick="updateDisplay('add')">+</a>
+</div>
+<div class="col">
+    <a id="subtract" class="btn btn-success" onclick="updateDisplay('subtract')">-</a>
+</div>
+<div class="col">
+    <a id="multiply" class="btn btn-success" onclick="updateDisplay('multiply')">*</a>
+</div>
+<div class="col">
+    <a id="divide" class="btn btn-success" onclick="updateDisplay('divide')">/</a>
+</div>
+<div class="col">
+    <a id="decimal" class="btn btn-success" onclick="updateDisplay('decimal')">.</a>
+</div>
+<div class="col">
+    <a id="negative-value" class="btn btn-success" onclick="updateDisplay('negative-value')">+/-</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="text-center my-4 fs-6 fw-bold">
+    <h2><b>Design and coded by Damassoh Japhet</b></h2>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
